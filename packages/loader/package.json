@@ -1,0 +1,23 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild --format=esm --outdir=dist src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsconfig-paths": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^1.0.1",
+    "@types/node": "^17.0.38",
+    "esbuild": "^0.14.42",
+    "ts-node": "^10.8.0"
+  }
+}

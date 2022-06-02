@@ -1,0 +1,13 @@
+{
+  "name": "tsconfig-paths-test",
+  "version": "0.1.0",
+  "private": "true",
+  "packageManager": "npm@8.10.0",
+  "scripts": {
+    "start": "npm run build -w packages/loader && npm start -w example"
+  },
+  "workspaces": [
+    "packages/loader",
+    "example"
+  ]
+}
